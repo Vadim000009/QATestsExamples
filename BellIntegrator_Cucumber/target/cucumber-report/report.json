@@ -1,0 +1,185 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1718200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.start_01()"
+            }
+          },
+          {
+            "result": {
+              "duration": 264200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.start_02()"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "Прогон таблицы",
+        "description": "",
+        "id": "прогон-данных;прогон-таблицы;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 756699,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.getScenarioInfo(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 201801,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.end_02()"
+            }
+          },
+          {
+            "result": {
+              "duration": 153101,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.end_01()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2172600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "вывод k1 и z1 из списка",
+            "match": {
+              "arguments": [
+                {
+                  "val": "k1",
+                  "offset": 6
+                },
+                {
+                  "val": "z1",
+                  "offset": 11
+                }
+              ],
+              "location": "MyStepDef.выводКлючИЗначениеИзСписка(String,String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@fail"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 174399,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.start_01()"
+            }
+          },
+          {
+            "result": {
+              "duration": 106301,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.start_02()"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "Прогон таблицы",
+        "description": "",
+        "id": "прогон-данных;прогон-таблицы;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 353799,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.getScenarioInfo(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 103901,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.end_02()"
+            }
+          },
+          {
+            "result": {
+              "duration": 111400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.end_01()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 170599,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "вывод k2 и z2 из списка",
+            "match": {
+              "arguments": [
+                {
+                  "val": "k2",
+                  "offset": 6
+                },
+                {
+                  "val": "z2",
+                  "offset": 11
+                }
+              ],
+              "location": "MyStepDef.выводКлючИЗначениеИзСписка(String,String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@fail"
+          }
+        ]
+      }
+    ],
+    "name": "Прогон данных",
+    "description": "  Запускаем тест несколько раз с набором данных",
+    "id": "прогон-данных",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/multiData.feature",
+    "tags": []
+  }
+]
